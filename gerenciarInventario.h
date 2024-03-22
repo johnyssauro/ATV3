@@ -23,6 +23,6 @@ int fazerPedido(int ID);
     @param entregue Informa se o produto foi entregue (1) ou não (0)
     @return A função retornará o produto com seus status de compra e entrega atualizados
 */
-Produto atualizarStatusPedido(Produto ID, Produto comprado, Produto entregue);
+Produto atualizarStatusPedido(int ID, int comprado, int entregue);
 
 

@@ -90,6 +90,6 @@ Quando? Quando as inscrições forem anunciadas.
 Onde? No dispositivo do usuário comum.
 
 Como? O sistema deve mostrar quais programas estão disponíveis para inscrição e permitir que o
-      usuário coloque seu email e senha para realizar sua inscrição.
+      usuário realize sua inscrição na Plataforma.
 
 

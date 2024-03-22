@@ -68,8 +68,8 @@ Como? Selecionando a opção de escolher um caminho durante uma entrega.
 
 5º Otimizar rotas:
 
-O quê?  O sistema deve atualizar as rotas mais eficientes disponíveis, a depender das mudanças das
-        variáveis que definem as rotas.
+O quê?  O sistema deve atualizar as rotas mais eficientes disponíveis ao longo
+        do tempo, a depender das mudanças das variáveis que definem as rotas.
 
 Por quê? Permite que as rotas mais eficientes sejam calculadas no momento da entrega.
 
@@ -79,4 +79,5 @@ Quando? Durante a entrega de um pedido.
 
 Onde? Nos dispositivos digitais do usuário entregador.
 
-Como? Selecionando a opção de atualizar (otimizar) as rotas.
+Como?   A otimização das rotas ocorrerá ao longo do tempo, uma vez que as variáveis
+        de geração de rotas podem variar.

@@ -5,12 +5,13 @@ typedef struct livro
     char nome;
     char genero;
     int emprestado;
+    int tempoEmprestado;
 
 };
 
 /* Criando função reservarLivros
 
-    @param livro Livro selecionado pelo usuario.
+    @param exemplar Livro selecionado pelo usuario.
     @return Retorna 0 se a reserva fracassou (caso o livro já esteja emprestado). Retorna 1 se a reserva foi bem sucedida.
 */
-int reservarLivros(livro livro);
+int reservarLivros(livro exemplar);

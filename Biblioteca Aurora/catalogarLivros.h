@@ -5,15 +5,15 @@ typedef struct livro
     char nome;
     char genero;
     int emprestado;
+    int tempoEmprestado;
 
 };
 
 /* Criando função catalogarLivro
 
-    @param id ID do exemplar
-    @param nome Nome do livro
-    @param catalogo Catálogo onde estão os dados de cada livro
+    @param exemplar Livro a ser catalogado.
+    @param catalogo Catálogo onde estão os dados de cada livro.
     @return Retorna 0 se o livro não for catalogado. Retorna 1 se a operação for bem sucedida.
 */
-int catalogarLivro(int id, char nome, livro *catalogo);
+int catalogarLivro(livro exemplar, livro *catalogo);
 

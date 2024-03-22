@@ -16,4 +16,4 @@ typedef struct rota
     @param r Ponteiro para o endereço de uma lista de nós que ligam noInicial e noFinal 
     @return Retorna r com sua lista de nós. Retorna NULL se noInicial == noFinal;
 */
-int analisarRotas(double noInicial, double noFinal, double variaveis, double r);
+float *analisarRotas(double noInicial, double noFinal, double variaveis, double r);

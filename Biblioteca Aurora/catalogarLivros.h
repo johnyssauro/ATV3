@@ -3,17 +3,10 @@ typedef struct livro
     
     int id;
     char nome;
+    char genero;
     int emprestado;
     int tempoEmprestado;
     int idUsuarioEmprestado;
-
-};
-
-
-typedef struct catalogo
-{
-
-    int * c;
 
 };
 
@@ -24,4 +17,5 @@ typedef struct catalogo
     @param catalogo Catálogo onde estão os dados de cada livro
     @return Retorna 0 se o livro 
 */
-int catalogarLivro();
+int catalogarLivro(int id, char nome, livro *catalogo);
+

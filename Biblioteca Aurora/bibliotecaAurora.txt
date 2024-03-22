@@ -1,0 +1,92 @@
+A Biblioteca Comunitária Aurora
+
+Desenvolvimento de "Sistema de Gerenciamento de Biblioteca"
+
+Requisitos funcionais:
+
+
+1º - Catalogar livros
+
+O quê?  O sistema deve permitir que se crie um catálogo de livros e que seja possível atualizar
+        esse catálogo.
+
+Por quê?    Há a necessidade de inserir informações acerca de quais livros a Biblioteca possui,
+            qual o ID de cada exemplar, nome da obra e seu respectivo gênero literário.
+
+Por quem?   Apenas os usuários moderadores devem ter acesso a essa função.
+
+Quando? A partir do momento em que o bibliotecário insere um novo exemplar cujo ID é único.
+
+Onde?   No computador do bibliotecário.
+
+Como? O sistema deve ter uma estrutura de dados (que corresponde ao catálogo) e deve apresentar
+      a função de inserir um novo exemplar, com ID, nome e gênero literário.
+
+
+2º Buscar/Pesquisar livros
+
+O quê?  O sistema deve permitir que o catálogo de livros seja acessado.     
+
+Por quê?    Há a necessidade de procurar por informações acerca de quais livros a Biblioteca possui,
+            qual o ID de cada exemplar, nome da obra e seu respectivo gênero literário.
+
+Por quem?   Usuários moderadores e usuários comuns têm acesso a essa função.
+
+Quando? Quando o usuário procurar por um exemplar.
+
+Onde?   No computador do bibliotecário e no dispositivo do usuário comum  a partir das ferramentas de pesquisa.
+
+Como? O sistema deve acessar a estrutura de dados (que corresponde ao catálogo) e deve apresentar
+      a função de visualizar todos os exemplares, com ID, nome e gênero literário, correspondentes
+      da pesquisa.
+
+
+3º Reservar livros:
+
+O quê? O sistema deve permitir que o usuário comum reserve o empréstimo de um livro.
+
+Por quê? Para que o usuário possa pegar o exemplar emprestado.
+
+Por quem? O usuário comum da Biblioteca tem acesso a essa função.
+
+Quando? Enquanto o usuário não estiver com o prazo de entrega de outros livros atrasado.
+
+Onde? No dispositivo do usuário comum.
+
+Como? O sistema deve identificar se o usuário tem algum livro com prazo de entrega atrasado. 
+      Caso não, a reserva de um livro poderá ser feita.
+
+
+
+4º Renovar empréstimos:
+
+O quê?  O sistema deve permitir que o usuário comum renove emprétimos.
+
+Por quê? Para abrir a oportunidade de o usuário permanecer com o livro por mais tempo.
+
+Por quem? O usuário comum da Biblioteca tem acesso a essa função.
+
+Quando? Enquanto o usuário não estiver com o prazo de entrega atrasado.
+
+Onde? No dispositivo do usuário comum.
+
+Como? O sistema deve identificar se o usuário tem algum livro com prazo de entrega atrasado. 
+      Caso não, a renovação de empréstimos poderá ser feita.
+
+
+5º Inscrever-se em programas:
+
+O quê? O sistema deve permitir que o usuário se inscreva em programas de cultura e literatura.
+
+Por quê? Para garantir o acesso do usuário a tais programas.
+
+Por quem? O usuário comum da Biblioteca tem acesso a essa função.
+
+Quando? Quando as inscrições forem anunciadas.
+
+Onde? No dispositivo do usuário comum.
+
+Como? O sistema deve mostrar quais programas estão disponíveis para inscrição e permitir que o
+      usuário coloque seu email e senha para realizar sua inscrição.
+
+

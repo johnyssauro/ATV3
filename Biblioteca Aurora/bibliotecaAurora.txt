@@ -32,7 +32,7 @@ Por quê?    Há a necessidade de procurar por informações acerca de quais liv
 
 Por quem?   Usuários moderadores e usuários comuns têm acesso a essa função.
 
-Quando? Quando o usuário procurar por um exemplar.
+Quando? Quando o usuário procurar por um exemplar a partir de seu nome.
 
 Onde?   No computador do bibliotecário e no dispositivo do usuário comum  a partir das ferramentas de pesquisa.
 
@@ -49,11 +49,11 @@ Por quê? Para que o usuário possa pegar o exemplar emprestado.
 
 Por quem? O usuário comum da Biblioteca tem acesso a essa função.
 
-Quando? Enquanto o usuário não estiver com o prazo de entrega de outros livros atrasado.
+Quando? Enquanto o livro estiver disponível.
 
 Onde? No dispositivo do usuário comum.
 
-Como? O sistema deve identificar se o usuário tem algum livro com prazo de entrega atrasado. 
+Como? O sistema deve identificar se o livro está disponível. 
       Caso não, a reserva de um livro poderá ser feita.
 
 

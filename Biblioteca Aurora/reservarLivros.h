@@ -8,18 +8,9 @@ typedef struct livro
 
 };
 
-typedef struct emprestimo
-{
-
-    int idUsuario;
-    int idLivro;
-    int tempoEmprestimo;
-
-};
-
 /* Criando função reservarLivros
 
-    @param id ID do livro
-    @param idUsuarioEmprestado ID do usuário que solicita empréstimo
-    @param tempoEmprestado
+    @param livro Livro selecionado pelo usuario.
+    @return Retorna 0 se a reserva fracassou (caso o livro já esteja emprestado). Retorna 1 se a reserva foi bem sucedida.
 */
+int reservarLivros(livro livro);

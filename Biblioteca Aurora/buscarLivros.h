@@ -9,8 +9,6 @@ typedef struct livro
 
 };
 
-livro * catalogo;
-
 /* Criando função buscarLivro
 
     Função imprime informações acerca de todos cada exemplar existente na

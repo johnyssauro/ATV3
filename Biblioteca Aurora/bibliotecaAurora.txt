@@ -4,6 +4,8 @@ Desenvolvimento de "Sistema de Gerenciamento de Biblioteca"
 
 Requisitos funcionais:
 
+OBS.: Para fins de abstração, a questão de como os usuários se inscrevem na
+Plataforma da Biblioteca foi omitida, assim como a implementação de seus dados.
 
 1º - Catalogar livros
 

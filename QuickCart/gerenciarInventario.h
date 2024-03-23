@@ -10,19 +10,20 @@ typedef struct Produto
 
 /* Criando a função fazerPedido (Fazer pedido == Comprar produto)
 
-    @param ID O id do produto
-    @return A função retornará o status do produto atualizado se o produto não foi comprado (comprado == 0) e retornará 0 caso contrário
+    A função atualiza o status de compra do produto de 0 para 1.
 
+    @param objeto Corresponde ao produto que terá seus status atualizado.
+    @return A função retornará 1 se o produto não havia sido comprado antes. Retornará 0 se o produto já foi comprado.
 */
-int fazerPedido(int ID);
+int fazerPedido(Produto objeto);
 
-/* Criando a função atualizar status
+/* Criando a função atualizarStatusEntrega
 
-    @param ID O id do produto
-    @param comprado Informa se o produto foi comprado (1) ou não (0)
-    @param entregue Informa se o produto foi entregue (1) ou não (0)
-    @return A função retornará o produto com seus status de compra e entrega atualizados
+    A função atualiza o status de entrega do produto de 0 para 1.
+
+    @param objeto Corresponde ao produto que terá seus status atualizado
+    @return A função retornará o produto com seus status de entrega atualizados.
 */
-Produto atualizarStatusPedido(int ID, int comprado, int entregue);
+Produto atualizarStatusEntrega(Produto objeto);
 
 

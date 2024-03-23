@@ -3,8 +3,8 @@ typedef struct Produto
 
     int ID;
     char nome;
-    int comprado = 0;
-    int entregue = 0;
+    int comprado;
+    int entregue;
 
 };
 
@@ -23,5 +23,5 @@ Produto criarProduto(int ID, int nome);
     @param nome O nome do produto
     @return Retorna 1 caso o produto seja removido do sistema e 0 caso contrário.
 */
-Produto removerProduto(int ID, int nome);
+int removerProduto(Produto objeto);
 
